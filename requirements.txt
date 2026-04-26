@@ -1,7 +1,3 @@
 streamlit
-langchain
-langchain-community
 langchain-groq
-sentence-transformers
-chromadb
-pypdf
+langchain-core
