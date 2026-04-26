@@ -16,7 +16,7 @@ except FileNotFoundError:
     st.warning("Please upload 'phc_bootcamp_data.txt' to your GitHub repository.")
 
 # Ultra-light Llama 3 connection
-llm = ChatGroq(model_name="llama3-8b-8192", temperature=0)
+llm = ChatGroq(model_name="llama-3.1-8b-instant", temperature=0)
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful digital assistant for the Pakistan Hindu Council. Use ONLY this official data to answer questions:\n\n{context}\n\nIf the answer is not in the data, say you don't know."),
